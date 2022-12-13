@@ -47,4 +47,19 @@ How to implement selection sort and its time complexity
 How to implement insertion sort and its time complexity
 
 
+**10. Merge Sort**
+
+How to implement merge sort and its time complexity and space complexity
+
+
+**11. Quick Sort**
+
+How to implement quick sort and its time complexity and space complexity
+
+
+**12. Radix Sort**
+
+How to implement radix sort and its time complexity and space complexity
+
+
 Note By - Saifur rahman Tanvir
