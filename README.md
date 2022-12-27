@@ -62,4 +62,14 @@ How to implement quick sort and its time complexity and space complexity
 How to implement radix sort and its time complexity and space complexity
 
 
+**13. Singly Linked List**
+
+Everything about singly linked list, how to push, pop, shift, unshift, insert, remove, and inverse a linked list.
+
+
+**14. Doubly Linked List**
+
+Everything about doubly linked list, how to push, pop, shift, unshift, insert, and remove.
+
+
 Note By - Saifur rahman Tanvir
