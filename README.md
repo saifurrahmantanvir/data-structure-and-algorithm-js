@@ -72,4 +72,14 @@ Everything about singly linked list, how to push, pop, shift, unshift, insert, r
 Everything about doubly linked list, how to push, pop, shift, unshift, insert, and remove.
 
 
+**15. Stacks and Queues**
+
+Everything about stacks and queues, how to implement stacks with linked list and push and pop, how to implement queues with linked list and enqueue and dequeue.
+
+
+**16. Binary Search Trees**
+
+Everything about trees, binary trees, specially binary search trees. How to insert and find a node in a binary search tree.
+
+
 Note By - Saifur rahman Tanvir
