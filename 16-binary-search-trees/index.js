@@ -112,6 +112,80 @@ class BinarySearchTree {
 
       return current;
    }
+
+   breadthFirst() {
+      let queue = [], data = [], node = this.root;
+
+      queue.push(node)
+
+      while (queue.length) {
+         node = queue.shift()
+
+         data.push(node.value)
+
+         if (node.left)
+            queue.push(node.left)
+
+         if (node.right)
+            queue.push(node.right)
+      }
+
+      return data
+   }
+
+   preOrder() {
+      let data = [], current = this.root;
+
+      function traverse(node) {
+         data.push(node.value)
+
+         if (node.left)
+            traverse(node.left)
+
+         if (node.right)
+            traverse(node.right)
+      }
+
+      traverse(current)
+
+      return data
+   }
+
+   postOrder() {
+      let data = [], current = this.root;
+
+      function traverse(node) {
+         if (node.left)
+            traverse(node.left)
+
+         if (node.right)
+            traverse(node.right)
+
+         data.push(node.value)
+      }
+
+      traverse(current)
+
+      return data;
+   }
+
+   inOrder() {
+      let data = [], current = this.root;
+
+      function traverse(node) {
+         if (node.left)
+            traverse(node.left)
+
+         data.push(node.value)
+
+         if (node.right)
+            traverse(node.right)
+      }
+
+      traverse(current)
+
+      return data;
+   }
 }
 
 const tree = new BinarySearchTree()
@@ -124,5 +198,10 @@ tree.insert(10)
 tree.insert(2).insert(16).insert(7)
 
 console.log(tree.contains(17))
+
+console.log(tree.breadthFirst())
+console.log(tree.preOrder())
+console.log(tree.postOrder())
+console.log(tree.inOrder())
 
 console.log(tree)

@@ -79,7 +79,12 @@ Everything about stacks and queues, how to implement stacks with linked list and
 
 **16. Binary Search Trees**
 
-Everything about trees, binary trees, specially binary search trees. How to insert and find a node in a binary search tree.
+Everything about trees, binary trees, specially binary search trees. How to insert and find a node in a binary search tree. Tree traversal with breadth first and depth first search(in order, preorder, postorder)
+
+
+**17. Binary Heaps**
+
+Everything about binary heaps and priority queues. How to insert and extract max from a binary heap. How to implement priority queues from binary heaps and enqueue and dequeue from a priority queue.
 
 
 Note By - Saifur rahman Tanvir
