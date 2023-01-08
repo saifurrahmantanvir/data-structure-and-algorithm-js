@@ -87,4 +87,14 @@ Everything about trees, binary trees, specially binary search trees. How to inse
 Everything about binary heaps and priority queues. How to insert and extract max from a binary heap. How to implement priority queues from binary heaps and enqueue and dequeue from a priority queue.
 
 
+**18. Hash Tables**
+
+Everything about hash tables. How to hash a key and how to get and set a value in the hash table. How to get all the keys and values in a hash table.
+
+
+**19. Graphs**
+
+Everything about graphs. How to add and remove vertex and edge in a graph. Graph traversal with breadth first and depth first search(recursively and iteratively)
+
+
 Note By - Saifur rahman Tanvir
